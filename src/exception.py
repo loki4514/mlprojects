@@ -2,7 +2,7 @@ import sys
 # that provides access to some system-specific functionalities and variables. 
 # It allows Python code to interact with the underlying operating system and to, 
 # perform tasks like reading and writing to the standard input/output/error 
-
+from src.logger import logging
 
 def error_message_details(error,error_details:sys):
     # only last info is enough 
@@ -47,4 +47,4 @@ if __name__ == "__main__":
     #     a = 1/0
     # except Exception as e:
     #     raise CustomException(e,sys)
-    
+    pass 
