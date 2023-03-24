@@ -22,6 +22,6 @@ version='0.0.1',
 author='Lokesh R',
 author_email='loki@gmail.com',
 packages=find_packages(),
-install_requires=get_requirements('requirements.txt')
+install_requires=get_requirements('requirement.txt')
 
 )
